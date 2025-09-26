@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteTheme, SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutFloatingInline from '@/components/navigation/NavbarLayoutFloatingInline';
 import SimpleHero from '@/components/sections/layouts/hero/FrameHero';
@@ -11,7 +11,6 @@ const theme: SiteTheme = {
   styleVariant: 'funAndTrendy',
   colorTemplate: 1,
   textAnimation: 'slide',
-  buttonOption: 'motion-icon'
 };
 
 export default function Home() {
@@ -72,7 +71,6 @@ export default function Home() {
       </div>
       <div id="footer" data-section="footer">
         <GradientFooter
-          logoText="MemePulse"
           columns={[
             { title: "Company", items: [{ label: "About", onClick: () => {} }, { label: "Team", onClick: () => {} }, { label: "Blog", onClick: () => {} }] },
             { title: "Community", items: [{ label: "Discord", onClick: () => {} }, { label: "Telegram", onClick: () => {} }, { label: "Reddit", onClick: () => {} }] },
